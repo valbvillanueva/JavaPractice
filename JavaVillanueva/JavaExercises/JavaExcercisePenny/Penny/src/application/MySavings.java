@@ -1,4 +1,4 @@
-package application;
+package JavaExercises.JavaExcercisePenny.Penny.src.application;
 
 import java.util.*;
 import attributes.Penny; //to use extends keyword

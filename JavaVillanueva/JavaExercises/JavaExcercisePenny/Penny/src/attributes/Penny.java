@@ -1,4 +1,4 @@
-package attributes;
+package JavaExercises.JavaExcercisePenny.Penny.src.attributes;
 
 import application.MySavings;
 
