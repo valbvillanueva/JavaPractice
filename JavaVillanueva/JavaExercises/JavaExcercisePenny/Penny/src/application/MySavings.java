@@ -1,12 +1,11 @@
 package JavaExercises.JavaExcercisePenny.Penny.src.application;
 
 import java.util.*;
-import attributes.Penny; //to use extends keyword
 
 public class MySavings {
     public static void main(String[] args) {
 
-        Penny myObj = new Penny(); // Creating an instance of class
+        JavaExercises.JavaExcercisePenny.Penny.src.attributes.Penny myObj = new JavaExercises.JavaExcercisePenny.Penny.src.attributes.Penny(); // Creating an instance of class
 
         Scanner mySc = new Scanner(System.in);
 
@@ -91,5 +90,6 @@ public class MySavings {
             }
 
         } while (choice != 0 && choice <= 6);
+        mySc.close();
     }
 }

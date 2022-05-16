@@ -1,5 +1,5 @@
 package JavaExercises.JavaExerciseLunch;
-import java.util.*;
+
 
 public class LunchOrder {
     public static void main(String[] args) {
@@ -9,8 +9,11 @@ public class LunchOrder {
         Lunch frenchFries = new Lunch(11,36,4);
         Lunch soda = new Lunch(0,38,0);
 
-        System.out.println("Each Hamburger has " + hamburger);
-        System.out.println(salad);
+        System.out.println("Each Hamburger has " + hamburger  );
+        System.out.println("Each salad has "+ salad);
+        System.out.println("Each frenchfries has " + frenchFries);
+        System.out.println("Each soda has " + soda);
+        
         
     }
 }

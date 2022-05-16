@@ -1,26 +1,31 @@
 package JavaExercises.JavaExerciseLunch;
 
 public class Lunch {
-    private String hamburger;
-    private String salad;
-    private String frenchFries;
-    private String soda;
-    private int price;
+    // private int hamburger;
+    // private int salad;
+    // private int frenchFries;
+    // private int soda;
+    // private int price;
     private double fat;
     private double carbohydrates;
     private double fiber;
 
-    public Lunch(int fat, int carbohydrates, int fiber) {
+    public Lunch(double fat, double carbohydrates, double fiber) {
         this.fat = fat;
         this.carbohydrates = carbohydrates;
         this.fiber = fiber;
     }
+   public Lunch(int hamburger){
+    //    this.hamburger = price;
+   }
 
     public String toString() {
         String lunchDetails;
         
-        lunchDetails = Integer.toString(fat) + ".0g of fat "  + Integer.toString(carbohydrates) + " " + Integer.toString(fiber)+"";
+        lunchDetails = Double.toString(fat) + "g of fat "  + Double.toString(carbohydrates) + "g of carbohydrates " + Double.toString(fiber)+"g of fiber ";
         return lunchDetails;
+
+    
 
 
     }

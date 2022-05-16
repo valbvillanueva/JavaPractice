@@ -1,8 +1,6 @@
 package JavaExercises.JavaExcercisePenny.Penny.src.attributes;
 
-import application.MySavings;
-
-public class Penny extends MySavings {
+public class Penny extends JavaExercises.JavaExcercisePenny.Penny.src.application.MySavings {
     private int dime;
     private int nickel;
     private int quarter;
